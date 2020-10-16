@@ -11,16 +11,22 @@ This is a very simple exploration of Apollo 3 Client with the Apollo Server.
 3. Run the following command from within the cloned folder. The same folder where the `docker-compose.yml` file is located.
 
 ```bash
-docker-compose up -d
+docker-compose up --build -d
 ```
 
 This will build the images and run the containers for the GraphQL server, the REST server, and Redis cache server.
 
 4. Change into the `client-app` folder. This is the location of the React application which uses the Apollo 3 client.
 
-5. Run the following command to view the web page.
+5. Run the following commands to view the web page. First install the NPM packages.
 
+```bash
+npm install
 ```
+
+Next, start the React development server.
+
+```bash
 npm start
 ```
 
