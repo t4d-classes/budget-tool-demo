@@ -1,0 +1,20 @@
+{
+  "folders": [
+    {
+      "path": "client-app"
+    },
+    {
+      "path": "graphql-server-app"
+    },
+    {
+      "path": "rest-server-app"
+    },
+    {
+      "path": "cache-server-app"
+    },
+    {
+      "path": "../../../../github.com/t4d-classes/react_10142020"
+    }
+  ],
+  "settings": {}
+}
