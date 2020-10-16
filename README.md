@@ -18,7 +18,7 @@ This will build the images and run the containers for the GraphQL server, the RE
 
 4. Change into the `client-app` folder. This is the location of the React application which uses the Apollo 3 client.
 
-5. Run the following commands to view the web page. First install the NPM packages.
+5. Run the following commands to view the web page. First, install the NPM packages.
 
 ```bash
 npm install
